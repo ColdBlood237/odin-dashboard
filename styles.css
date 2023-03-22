@@ -11,6 +11,7 @@ body {
     grid-template-rows: 1fr 10fr;
 }
 
+
 .sidebar {
     background-color: #1992d4;
     color: #ffffff;
@@ -117,6 +118,7 @@ input[type="search"] {
 
 .main-content {
     background-color: #e2e8f0;
+    padding-right: 24px;
 
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -128,6 +130,7 @@ input[type="search"] {
     grid-template-rows: repeat(3, 1fr);
     gap: 24px;
     justify-content: center;
+    margin-right: 16px;
 }
 
 .projects-container {
@@ -141,7 +144,7 @@ input[type="search"] {
 .card {
     background-color: #ffffff;
     border-radius: 15px;
-    padding: 32px 32px;
+    padding: 32px;
     height: 200px;
     width: 400px;
 
@@ -155,6 +158,11 @@ input[type="search"] {
 
 .card p {
     margin-top: 8px;
+    color: #636363;
+}
+
+.card a {
+    color: #000000;
 }
 
 .card * {
@@ -169,6 +177,24 @@ input[type="search"] {
     gap: 16px;
 }
 
-.card p {
+
+.announcements {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 32px;
+}
+
+.announcements h5 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.announcements p {
+    margin: 0px 0;
     color: #636363;
+}
+
+hr {
+    margin: 16px 0;
+    color: #f0f0f0;
 }
